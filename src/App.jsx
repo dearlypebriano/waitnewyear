@@ -54,7 +54,7 @@ function App() {
         <video
           width="100%"
           height="100%"
-          src="/video/Menjelajahi Indonesia.mp4"
+          src="Menjelajahi Indonesia.mp4"
           frameBorder="0"
           allowFullScreen
           autoPlay
