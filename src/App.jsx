@@ -58,6 +58,7 @@ function App() {
           frameBorder="0"
           allowFullScreen
           autoPlay
+          loop
           muted
           style={{ position: "absolute", objectFit: "cover" }}
         ></video>
