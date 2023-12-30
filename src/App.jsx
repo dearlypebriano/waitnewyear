@@ -6,7 +6,7 @@ import Countdown from "react-countdown";
 
 function App() {
   const [newYearMessage, setNewYearMessage] = useState([
-    "Bye Tahun 2023 Waiting...✨",
+    "Menunggu 2024...✨",
   ]);
 
   const particleInitialization = async (engine) => {
@@ -44,6 +44,7 @@ function App() {
               setNewYearMessage([
                 "Selamat Tahun Baru 🥳🎉💖",
                 "Anda Sekarang di Tahun 2024",
+                "Selamat Tinggal 2023😢🌹"
               ])
             }
           />
