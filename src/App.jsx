@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Countdown from "react-countdown";
 
 function App() {
-  const [newYearMessage, setNewYearMessage] = useState(["Menunggu 2025✨"]);
+  const [newYearMessage, setNewYearMessage] = useState(["Menunggu 2033✨"]);
 
   const [showParticles, setShowParticles] = useState(false);
   const [playVideo, setPlayVideo] = useState(true);
@@ -31,7 +31,7 @@ function App() {
     if (showParticles) {
       setNewYearMessage([
         "Selamat Tahun Baru 🥳🎉💖",
-        "Anda Sekarang di Tahun 2024",
+        "Anda Sekarang di Tahun 2033",
       ]);
     }
   }, [showParticles]);
