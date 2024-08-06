@@ -15,7 +15,7 @@ function App() {
   };
 
   function timeLine() {
-    const newYearDate = new Date("January 1, 2025 00:00:00").getTime();
+    const newYearDate = new Date("January 1, 2033 00:00:00").getTime();
     const nowDate = new Date().getTime();
     const remainingTime = newYearDate - nowDate;
 
